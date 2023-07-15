@@ -1,0 +1,81 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Dumguy X v2", "Midnight")
+
+--MAIN
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Dumguy X v1")
+
+
+MainSection:NewButton("Dex Explorer", "Game files?", function()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
+end)
+
+MainSection:NewButton("BTools", "Destroy and copy all!", function()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/BTools.txt"))()
+end)
+
+MainSection:NewButton("Infinite Jump", "Jump as high as you can!", function()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Jump.txt"))()
+end)
+
+MainSection:NewButton("Click Teleport", "Left Ctrl + Click to tp!", function()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Click%20Teleport.txt"))()
+end)
+
+MainSection:NewButton("Aimbot + ESP[NW]", "Aims for you and shows everyone!", function()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Universal%20ESP%20+%20Aimbot.txt"))()
+end)
+
+MainSection:NewButton("High Hips", "Walk like normal, but a little taller.", function()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/High%20Hips.txt"))()
+end)
+
+MainSection:NewButton("Remove Legs", "Removes the legs from your player's character.", function()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Remove%20Legs.txt"))()
+end)
+
+MainSection:NewButton("Teleport To Player[NW]", "Teleports your player's character to the selected player's character", function()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Teleport%20To%20Player.txt"))()
+end)
+
+MainSection:NewButton("Float Character", "Makes your player's character float in the air.", function()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Float%20Character.txt"))()
+end)
+
+MainSection:NewButton("Gravity Switch", "Press e to toggle the game's gravity", function()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Gravity%20Switch.txt"))()
+end)
+
+MainSection:NewButton("Fly", "Why walk when you can fly?", function()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Fly.txt"))()
+end)
+
+MainSection:NewButton("WRD ESP", "Draws boxes around other players. As used in JJSploit.", function()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/WRD%20ESP.txt"))()
+end)
+
+
+--GUI
+local Main = Window:NewTab("Gui")
+local MainSection = Main:NewSection("Gui")
+
+MainSection:NewButton("Infinite Yield", "A command line script hub with over 6 years of development", function()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Yield.txt"))()
+end)
+
+MainSection:NewButton("Eclipse Hub", "Only use on Murder Mystery 2", function()
+    getgenv().mainKey = "nil";
+local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https\58//api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+end)
+
+MainSection:NewButton("Vape v4", "Only use on Bedwars", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+Section:NewButton("Owl hub", "One of the most popular script hubs. 30+ games.", function()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/OwlHub.txt"))()
+end)
+
+Section:NewButton("Ez hub", "Multi-game script hub with a beautifully made UI.", function()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Ez%20Hub.txt"))()
+end)
